@@ -10,8 +10,6 @@
 body{
     background-color:#EFEBCE;
     margin: 0 auto;
-    overflow: hidden;
-    
 }
 
 header {
@@ -20,7 +18,6 @@ header {
     align-items: center;
     background-color: #D8A48F;
     font-size: 20px;
-
 }
 a{
     margin-left: 81px;
@@ -43,23 +40,16 @@ h1{
     font-family: 'Meie Script';
     color: #BB8487;
     float: left;
-    
+    margin-top: 0px;
 }
-
 button{
     font-size: 32px;
     width: 411px;
     height: 81px;
     background-color: #BB8487;
     color: white;
-    position: fixed;
-    bottom: 40px;
-    left: 0px; 
-    margin-left: 390px;
     border: none;
 }
-
-
 button:hover{
     font-size: 32px;
     width: 411px;
@@ -68,13 +58,44 @@ button:hover{
     color: white;
     box-shadow: 8px 10px 5px 2px rgba(0, 0, 0, 0.2);
 }
-#photo-cover{
-    float: right;
 
-}
 #container-for-cover{
-    width: 1140px;
-    margin: 0 auto;
     display: flex;
-    
+}
+.square-box{
+    width:485px;
+    height: 90px;
+    background:#bb84874a;
+    color:#000000;  
+    float:left;
+    text-align: center;
+    vertical-align: auto;
+}
+p{
+    font-size: 24px;
+    font-family: 'Bitter';
+}
+.h1-text{
+    width: 582;
+}
+.photo-cover{
+    float: right;
+}
+.content-about-us{
+    vertical-align: middle;
+    display: flex;
+    padding-top: 106px;
+}
+.text-about-us{
+    width: 488px;
+}
+h2{
+    font-size: 96px;
+    color:#452626;
+    font-family: 'Bitter';
+}
+#about-us{
+    background-image: url(photo/background-about-us.png);
+    height: 772px;
+    background-size: cover;
 }
