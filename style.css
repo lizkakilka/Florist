@@ -1,0 +1,80 @@
+@font-face {
+    font-family: 'Meie Script';
+    src: url(shrift/MeieScript-Regular.ttf);
+}
+.container {
+    width: 1140px;
+    margin: 0 auto;
+}
+
+body{
+    background-color:#EFEBCE;
+    margin: 0 auto;
+    overflow: hidden;
+    
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #D8A48F;
+    font-size: 20px;
+
+}
+a{
+    margin-left: 81px;
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    color: black;
+    text-decoration: underline;
+}
+#cover {
+    height: 636px;
+    display: flex;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 38px;
+}
+h1{
+    font-weight: normal;
+    font-size: 128px;
+    font-family: 'Meie Script';
+    color: #BB8487;
+    float: left;
+    
+}
+
+button{
+    font-size: 32px;
+    width: 411px;
+    height: 81px;
+    background-color: #BB8487;
+    color: white;
+    position: fixed;
+    bottom: 40px;
+    left: 0px; 
+    margin-left: 390px;
+    border: none;
+}
+
+
+button:hover{
+    font-size: 32px;
+    width: 411px;
+    height: 81px;
+    background-color: #BB8487;
+    color: white;
+    box-shadow: 8px 10px 5px 2px rgba(0, 0, 0, 0.2);
+}
+#photo-cover{
+    float: right;
+
+}
+#container-for-cover{
+    width: 1140px;
+    margin: 0 auto;
+    display: flex;
+    
+}
