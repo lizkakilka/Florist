@@ -99,3 +99,22 @@ h2{
     height: 772px;
     background-size: cover;
 }
+.card{
+    width: 364px;
+    height: 674px;
+}
+.card-discription{
+    display: flex;
+    justify-content: space-between;
+}
+
+h3{
+    font-size: 32px;
+}
+.cards-three{
+    display: flex;
+    justify-content: space-between;
+}
+.feedback-content{
+    
+}
