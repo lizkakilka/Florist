@@ -110,6 +110,7 @@ h2 {
     color: #452626;
     font-family: 'Bitter';
     margin: 0;
+    text-align: center;
 }
 
 #about-us {
@@ -198,6 +199,20 @@ input{
 }
 #contact{
     background-image: url(photo/contact-background.png);
-    b
+    background-size: cover;
+    height: 626px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 40px;
 
+}
+.img-vk{
+    margin-right: 50px;
+    padding-bottom: 175px;
+}
+.img-inst{
+    margin-left: 50px;
+    padding-bottom: 175px;
 }
