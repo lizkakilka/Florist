@@ -219,7 +219,29 @@ input{
 .img-logo{
     height: 77px;
 }
-.firstfooterblock{
-    height: 200px;
-    width: 252px;
+.footer-list{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.vk-footer{
+    list-style-image: url(photo/logo-vk.png);
+}
+.inst-footer{
+    list-style-image: url(photo/logo-instagram.png);
+}
+.phone-footer{
+    list-style-image: url(photo/phone.png);
+}
+.adress-footer{
+    list-style-image: url(photo/home-outline.png);
+}
+.first-list-footer{
+    margin-left: 170px;
+}
+.second-list-footer{
+    margin-right: 170px;
+}
+.text-discription{
+    text-align: center;
 }
