@@ -14,11 +14,11 @@ body {
 }
 
 header {
+    height: 87px;
     display: flex;
     align-items: center;
     background-color: #D8A48F;
     font-size: 20px;
-    height: 87px;
 }
 
 a {
@@ -244,4 +244,7 @@ input{
 }
 .text-discription{
     text-align: center;
+}
+.link-for-footer{
+    margin-left: 0;
 }
