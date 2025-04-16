@@ -19,15 +19,20 @@ header {
     align-items: center;
     background-color: #D8A48F;
     font-size: 20px;
-}.link-in-header{
+}
+
+.link-in-header {
     margin-left: 81px;
     text-decoration: none;
     color: black;
 }
-a{
+
+a {
     text-decoration: none;
     color: black;
+    font-size: 24px;
 }
+
 a:hover {
     color: black;
     text-decoration: underline;
@@ -57,7 +62,6 @@ button {
     border: none;
     font-family: 'Bitter';
     margin-top: 10px
-
 }
 
 button:hover {
@@ -88,6 +92,7 @@ p {
     font-size: 24px;
     font-family: 'Bitter';
 }
+
 .photo-cover {
     float: right;
 }
@@ -171,32 +176,38 @@ form {
     flex-direction: column;
     gap: 10px;
 }
-input{
+
+input {
     width: 367px;
     height: 58px;
     font-size: 20px;
 }
-#blog{
+
+#blog {
     display: flex;
     align-items: center;
     justify-content: center;
     margin-top: 70px;
 }
-.all-blog-cards{
+
+.all-blog-cards {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
 }
-.card-blog{
+
+.card-blog {
     margin-bottom: 30px;
 }
-.blog-discription{
+
+.blog-discription {
     display: flex;
     align-items: center;
     flex-direction: column;
 
 }
-#contact{
+
+#contact {
     background-image: url(photo/contact-background.png);
     background-size: cover;
     height: 626px;
@@ -207,43 +218,58 @@ input{
     margin-top: 40px;
 
 }
-.img-vk{
+
+.img-vk {
     margin-right: 50px;
     padding-bottom: 175px;
 }
-.img-inst{
+
+.img-inst {
     margin-left: 50px;
     padding-bottom: 175px;
 }
-.img-logo{
+
+.img-logo {
     height: 77px;
 }
-.footer-list{
+
+.footer-list {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-.vk-footer{
-    list-style-image: url(photo/logo-vk.png);
-}
-.inst-footer{
-    list-style-image: url(photo/logo-instagram.png);
-}
-.phone-footer{
-    list-style-image: url(photo/phone.png);
-}
-.adress-footer{
-    list-style-image: url(photo/home-outline.png);
-}
-.first-list-footer{
+
+.first-list-footer {
     margin-left: 170px;
 }
-.second-list-footer{
+
+.second-list-footer {
     margin-right: 170px;
 }
-.text-discription{
+
+.text-discription {
     text-align: center;
 }
-.link-for-footer{
+
+.link-for-footer {
     margin-left: 0;
+}
+
+.marker {
+    display: flex;
+    align-items: center;
+    height: 32px;
+    gap: 10px;
+}
+
+.marker-text {
+    margin-bottom: 30px;
+
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+
 }
